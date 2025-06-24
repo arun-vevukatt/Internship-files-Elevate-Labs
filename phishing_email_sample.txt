@@ -1,0 +1,14 @@
+
+From: PayPal Security Team <security@paypal-alert.com>
+Subject: Urgent: Unusual Activity Detected on Your Account
+
+Dear Customer,
+
+We noticed suspicious activity in your PayPal account. For your protection, we have temporarily limited your account access. To restore access, please verify your identity immediately by clicking the link below:
+
+https://paypal.com.verify-info-login-security.tk
+
+Failure to verify within 24 hours will result in permanent suspension.
+
+Thank you,
+PayPal Account Review Department
