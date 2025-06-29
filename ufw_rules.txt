@@ -1,0 +1,27 @@
+
+# 🔐 UFW Firewall Rules Summary
+
+## 📄 Initial Status
+$ sudo ufw status
+Status: inactive
+
+## ✅ Enabling UFW
+$ sudo ufw enable
+
+## 🚫 Blocking Port 23 (Telnet)
+$ sudo ufw deny 23
+
+## ✅ Allowing SSH (Port 22)
+$ sudo ufw allow 22
+
+## 📋 Current Rules After Modifications
+$ sudo ufw status numbered
+Status: active
+
+     To                         Action      From
+     --                         ------      ----
+[1]  23                         DENY        Anywhere
+[2]  22                         ALLOW       Anywhere
+
+## ❌ Removing Rule to Restore Original State
+$ sudo ufw delete deny 23
